@@ -1,0 +1,57 @@
+.forms {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  
+  transform: translate(-50%, 50%);
+  z-index: 2;
+}
+.insertBox {
+  display: flex;
+  flex-direction: column; 
+  padding: 1%;
+}
+
+
+.checkboxClass 
+{
+  justify-content: center;
+  display: flex; 
+  align-items: center; 
+  margin: 10px; /
+}
+
+.checkboxClass input[type="checkbox"] {
+  margin-left: -100px; 
+}
+
+.checkboxClass span {
+  margin-left: -100px; 
+}
+#caixaTexto {
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 1.5rem;
+  
+  text-align: center;
+  padding: 10px;
+;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.683);
+  color: black;
+}
+
+.enviar {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#submit {
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgba(41, 18, 66, 0.849);
+  border: none;
+}

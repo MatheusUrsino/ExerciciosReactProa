@@ -1,0 +1,62 @@
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-image: url("https://images3.alphacoders.com/135/1354204.jpeg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin: 0;
+  padding: 0;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.titulo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.titulo h1,
+.titulo h2 {
+  align-items: center;
+  text-align: center; 
+  z-index: 2;
+  margin: 20px;
+  border: 1px;
+  border-style: dashed;
+  background-color: #37374164;
+}
+
+.logado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.logado h1,
+.logado h2 {
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
