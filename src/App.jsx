@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Verificar from "./components/intro";
+import Verificar from "./components/Intro";
 
 function App() {
   const [autenticado, setAutenticado] = useState(false);
